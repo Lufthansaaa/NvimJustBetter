@@ -33,6 +33,12 @@ sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/inst
 Make sure you replace user in ```user:user``` with your username you are signed in with.
 Then after you are after downloading the instant-install file, just run this command and let the magic happen!
 
+```bash
+./install.sh
+```
+* After it automatically NeoVim, please run ```:MasonUpdate``` and let all the registeries update!
+* Once you are done, you can run ```:q``` to quit the program!
+
 ## What plugins are included?
 
 * Mason.nvim (Language Server installation)
