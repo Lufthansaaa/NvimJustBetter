@@ -13,7 +13,7 @@ Not built-in background. Edit in your terminal settings.
 ## Installation
 * Install a NERD font onto your terminal.<br>If you dont, weird icons like □ or � will show up most of the time.
 ## Linux Installation
-## Ubuntu, Debian and Debian-Based Systems
+## Ubuntu, Debian and Debian-Based Systems and other OS that use APT
 ```bash
 sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/installApt.sh && sudo chown user:user installApt.sh && sudo chmod u=rwx,g=r,o=r installYum.sh 
 ```
