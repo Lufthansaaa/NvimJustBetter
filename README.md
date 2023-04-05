@@ -12,9 +12,7 @@ Not built-in background. Edit in your terminal settings.
 
 ## Installation
 * Install a NERD font onto your terminal.<br>If you dont, weird icons like □ or � will show up most of the time.
-<details>
 ## Linux Installation
-______________________
 ## Debian and Debian-Based Systems
 ```bash
 sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/install.sh && sudo chown pi:pi install.sh && sudo chmod u=rwx,g=r,o=r install.sh 
