@@ -22,6 +22,8 @@ Then after you are done downloading the instant-install file, just run this comm
 ./install.sh
 ```
 
+<details>
+
 ```lua
 ---         NvimJustBetter           ---
 ---                                  ---
