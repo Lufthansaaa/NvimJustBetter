@@ -13,7 +13,16 @@ Not built-in background. Edit in your terminal settings.
 ## Installation
 * Install a NERD font onto your terminal.<br>If you dont, weird icons like □ or � will show up most of the time.
 <details>
-<summary>Copy and Paste this code into init.lua.</summary>
+## Linux Installation
+______________________
+## Debian and Debian-Based Systems
+```bash
+sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/install.sh && sudo chown pi:pi install.sh && sudo chmod u=rwx,g=r,o=r install.sh 
+```
+Then after you are done downloading the instant-install file, just run this command and let the magic happen!
+```bash
+./install.sh
+```
 
 ```lua
 ---         NvimJustBetter           ---
