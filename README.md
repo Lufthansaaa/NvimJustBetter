@@ -15,26 +15,26 @@ Not built-in background. Edit in your terminal settings.
 ## Linux Installation
 ## Ubuntu, Debian and Debian-Based Systems and other OS that use APT
 ```bash
-sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/installApt.sh && sudo chown user:user installApt.sh && sudo chmod u=rwx,g=r,o=r installYum.sh 
+sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/installApt.sh && sudo chown user:user installApt.sh && sudo chmod u=rwx,g=r,o=r installApt.sh 
 ```
 Make sure you replace user in ```user:user``` with your username you are signed in with.
 Then after you are done downloading the instant-install file, just run this command and let the magic happen!
 ```bash
-./install.sh
+./installApt.sh
 ```
 * After it automatically enters NeoVim, please run ```:MasonUpdate``` and let all the registeries update!
 * Once you are done, you can run ```:q``` to quit the program!
 
 ## CentOS, and other operating systems that use YUM
 ```bash
-sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/installYum.sh && sudo chown user:user installYum && sudo chmod u=rwx,g=r,o=r installYum.sh
+sudo wget https://raw.githubusercontent.com/Lufthansaaa/NvimJustBetter/main/installYum.sh && sudo chown user:user installYum.sh && sudo chmod u=rwx,g=r,o=r installYum.sh
 ```
 
 Make sure you replace user in ```user:user``` with your username you are signed in with.
 Then after you are after downloading the instant-install file, just run this command and let the magic happen!
 
 ```bash
-./install.sh
+./installYum.sh
 ```
 * After it automatically NeoVim, please run ```:MasonUpdate``` and let all the registeries update!
 * Once you are done, you can run ```:q``` to quit the program!
